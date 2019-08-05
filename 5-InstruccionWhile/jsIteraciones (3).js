@@ -1,7 +1,17 @@
 function mostrar()
 {
 
-var clave = prompt("ingrese el número clave.");
+    var clave ;
+    var pass="utn750";
 
+    clave= prompt("ingrese el número clave.");
 
-}//FIN DE LA FUNCIÓN
+    while(clave!==pass)
+    {
+        clave= prompt("Clave incorrecta  - ingrese el número clave.");
+    }
+
+    alert("Acceso consedido");
+}
+
+//FIN DE LA FUNCIÓN
