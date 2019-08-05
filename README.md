@@ -1,5 +1,5 @@
 # CursoIngresoJS
-# Laura Eiras
+# Federico Pesquera
 
 Curso de ingreso con JavaScript
 
