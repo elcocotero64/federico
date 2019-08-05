@@ -3,21 +3,27 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-var numuno;
-var numdos;
-var resultado
-var dato1;
-var dato2;
+    
 
-numuno = document.getElementById("numeroUno").value
-numdos = document.getElementById("numeroDos").value
+    var numero1;
+    var numero2;
+    var resultado;
 
-dato1 = parseInt(numuno)
-dato2= parseInt(numdos)
+   numero1=prompt("Ingrese un numero: ");
+   numero2=prompt("Ingrese un numero:");
+   
 
-resultado = dato1+dato2;
+   document.getElementById('numeroUno').value= numero1;
+   document.getElementById('numeroDos').value=numero2;
+    
+    
+     
+    
+    
+    resultado=parseInt(numero1) + parseInt(numero2);
 
-alert("la suma es "+resultado)
+    alert("El resultado es:"+resultado);
+
 
 
 }

@@ -1,14 +1,34 @@
 function mostrar()
 {
 //tomo la edad  
- 
-var edad;
-var mensaje;
 
-edad = document.getElementById("edad").value //tomo la edad 
-if (edad<13 || edad>17) {
-    alert("No es adolescente")
-}
+/*var edad;
+edad=prrompt=("no es adolescente");
+
+if(edad<13 &&){
+
+    aler*/
+
+var precio;
+precio=document.getElementById('edad').value;
+//precio=prompt("Ingrese precio");
+
+    if(precio<25)
+{
+    alert("es barato");
+}else
+ {
+     if(precio>75){
+     alert("Es caro");
+    } 
+    else
+
+    { 
+
+    alert("bien");
+    }
+
+ }
 
 
 }//FIN DE LA FUNCIÓN
