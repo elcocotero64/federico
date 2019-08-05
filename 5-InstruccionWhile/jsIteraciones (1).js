@@ -1,9 +1,21 @@
 function mostrar()
 {
-	var contador=0;
-	while(contador<10){
-	contador++
-	alert(contador);
-}
+	/*var cont=0;
+	while(cont<10)
+	{ 
+		cont++;
+		
+	console.log(cont);
 
+ }*/
+ var cont=0;
+ do
+ {
+	 
+	 cont++;
+	 console.log(cont);
+
+ }while(cont<10);
+
+  
 }//FIN DE LA FUNCIÓN

@@ -1,18 +1,25 @@
 function mostrar()
 {
 
-	var numero;
-	var num;
+	/*var numero= prompt("ingrese un número entre 0 y 9.");
+	numero=parseInt(numero);
 
-	numero = prompt("ingrese un número entre 0 y 10.");
-	num = parseInt(numero)
-
-	while (num<0 || num>9)
+	while(isNaN(numero))
 	{
-		numero = prompt("ingrese un número entre 0 y 10.");
-		num = parseInt(numero)
+		numero=prompt("Ingrese un numero entre 0 y 9");
 	}
-	document.getElementById("Numero").value = num
+	while(numero<0 || numero>9)
+
+	{
+		
+		numero=prompt("Ingrese un numero entre 0 y 9");
+	}*/
+	do{
+		var numero= prompt("ingrese un número entre 0 y 9.");
+		numero=parseInt(numero);
+
+	}
+	while(isNaN(numero)||(numero<0 || numero>9));
 
 
 }//FIN DE LA FUNCIÓN

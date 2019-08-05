@@ -1,27 +1,25 @@
 function mostrar()
 {
 
-    var sexo = prompt("ingrese f ó m .");
-    var fem ="f";
-    var mas ="m";
-    while(sexo!=fem && sexo!=mas)
-    {
-        sexo = prompt("ingrese f ó m .");        
-    } 
-    
-    if(sexo==fem)
-    {
-        document.getElementById('Sexo').value=fem;   
-    }
-    else
-    {
-        document.getElementById('Sexo').value=mas;    
-    }
-    
-    
-    
-     
+/*var sexo = prompt("ingrese f ó m .");
+sexo=sexo.toLowerCase();
+
+while(sexo!="f" && sexo!="m")
+{
+    sexo=prompt("Ingrese f o m.");
 }
 
 
- //FIN DE LA FUNCIÓN
+
+document.getElementById('Sexo').value=sexo;*/
+    var sexo;
+    
+    do{
+        sexo=prompt("Ingrese f o m");
+        sexo=sexo.toLowerCase();
+        
+      } while(sexo!="f" && sexo!="m"); 
+      document.getElementById('Sexo').value=sexo;
+    
+
+}//FIN DE LA FUNCIÓN

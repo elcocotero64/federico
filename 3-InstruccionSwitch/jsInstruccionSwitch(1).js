@@ -1,26 +1,35 @@
 function mostrar()
 {
-var txt;
-var mesda ;
+//tomo la edad  
+var mesDelAño = document.getElementById('mes').value;
 
-mesda = document.getElementById('mes').value;
-
-switch(mesda){
+switch(mesDelAño)
+{
     case 'Enero':
-        txt = "que comiences bien el año!!!"
-        break;
-    case 'Marzo':
-            txt = "a clases!!!"
+        {
+            alert("Que comiences bien el año")
             break;
-    case 'Julio':
-            txt ="se vienen las vacaciones!!!"
-            break;
-    case 'Diciembre':
-           txt = "Felices fiesta!!!"
-break;
-        default:
-                txt="Mes invalido"
         }
-alert(txt)
+        case 'Marzo':
+            {
+                alert("A clases")
+                break;
+            }
+            case 'Julio':
+                {
+                    alert("Se vienen las vacaciones!!!")
+                    break;
+                }
+                case 'Diciembre':
+                    {
+                        alert("Felices fiestas")
+                        break;
+
+                    }
+                      
+}
+
+
+
 
 }//FIN DE LA FUNCIÓN

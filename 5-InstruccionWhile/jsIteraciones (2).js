@@ -1,10 +1,20 @@
 function mostrar()
 {
-	var a=10;
-
-while(a>0){
-	alert(a)
-	a--
-}
+	var cont=10;
+	/*while(cont>0)
+	{ 
 	
+		
+	console.log(cont--);
+
+ }*/
+ do{
+	 
+	 console.log(cont--);
+ }
+ while(cont>0);
+
+	
+
+
 }//FIN DE LA FUNCIÓN
